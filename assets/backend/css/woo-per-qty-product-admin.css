@@ -1,0 +1,43 @@
+/*=============================================
+=            Section comment block            =
+=============================================*/
+.iwe_pqp_table_variable {
+  overflow-x: auto;
+}
+.wc-metaboxes-wrapper .wc-metabox .iwe_pqp_table_variable table{
+	padding: 10px;
+}
+.wc-metaboxes-wrapper .wc-metabox .iwe_pqp_table_variable table td,.wc-metaboxes-wrapper .wc-metabox .iwe_pqp_table_variable table th{
+	padding: 10px;
+}
+.iwe_pqp_table_variable .pqp_action_add.button{
+	margin-left: 22px !important;
+}
+.wc-metaboxes-wrapper .wc-metabox .iwe_pqp_table_variable table td input{
+	min-width: unset !important;
+}
+
+/*=====  End of Section comment block  ======*/
+/*====================================================
+=            Product Page General Setting            =
+====================================================*/
+.iwe_pqp_table_single {
+  overflow-x: auto;
+}
+.iwe_pqp_table_single table th,.iwe_pqp_table_single table td{
+	padding: 10px;
+}
+.iwe_pqp_table_single table td input{
+	float: none !important;
+	width: 100% !important;
+}
+.pqp_action_remove.button {
+  margin-left: 0 !important;
+}
+.pqp_action_add.button {
+  margin-bottom: 20px;
+  margin-left: 12px !important;
+  margin-top: 10px;
+}
+/*=====  End of Product Page General Setting  ======*/
+

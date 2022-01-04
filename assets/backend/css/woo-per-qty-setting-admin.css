@@ -1,0 +1,79 @@
+/*===============================
+=            Nav CSS            =
+===============================*/
+.iwe_pqp_nav_tab_wrapper {
+  padding: 0 10px;
+  border: none;
+  background: #495e68;	
+}
+.iwe_pqp_nav_tab_wrapper a,#iwe_setting_form .iwe_pqp_submit input,#iwe_pqp_bulk_add,#iwe_pqp_bulk_remove{
+	color: #fff;
+	background: #495e68;
+	border: 1px solid #495e68;
+	font-size: 20px;
+	font-weight: normal;
+	height: auto;
+	margin: 0;
+	margin-right: 10px;
+	padding: 20px;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+.iwe_pqp_nav_tab_wrapper a:hover,.iwe_pqp_nav_tab_wrapper a:focus,.iwe_pqp_nav_tab_wrapper .nav-tab-active,#iwe_setting_form .iwe_pqp_submit input:hover,#iwe_pqp_bulk_remove:hover,#iwe_pqp_bulk_add:hover{
+	color: #fff;
+	background: #7d929b;
+	border-color: #7d929b;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+/*=====  End of Nav CSS  ======*/
+/*=================================
+=            Table CSS            =
+=================================*/
+#iwe_setting_form{
+	padding: 10px;
+	border: 1px solid #495e68;
+	background: #fff;
+
+}
+.iwe_pqp_basic_setting{
+	margin: 0;
+}
+#iwe_setting_form .form-table.iwe_pqp_basic_setting td,#iwe_setting_form .form-table.iwe_pqp_basic_setting th,#iwe_setting_form .form-table.iwe_pqp_bulk_setting td,#iwe_setting_form .form-table.iwe_pqp_bulk_setting th,#iwe_setting_form .iwe_pqp_front_end_setting td,#iwe_setting_form .iwe_pqp_front_end_setting th{
+	padding: 10px;
+	vertical-align: middle;
+}
+#iwe_setting_form .form-table.iwe_pqp_basic_setting td p,#iwe_setting_form .form-table.iwe_pqp_bulk_setting td p{
+	display: inline-block;
+}
+#iwe_setting_form .form-table.iwe_pqp_bulk_setting td input{
+	border: 1px solid #495e68;
+}
+.form-table.iwe_pqp_bulk_setting .pqp_action_global_add.button{
+  margin-top: 15px;
+}
+.iwe_pqp_submit{
+	padding-bottom: 0;
+}
+#iwe_setting_form .iwe_pqp_submit input,#iwe_pqp_bulk_add,#iwe_pqp_bulk_remove{
+	padding: 8px 15px;
+}
+/*=====  End of Table CSS  ======*/
+
+/*===================================
+=            Select2 CSS            =
+===================================*/
+#iwe_pqp_choose_cat + .select2,#iwe_pqp_choose_prod + .select2{
+	width: 200px !important;
+}
+#iwe_pqp_choose_cat + .select2 input,#iwe_pqp_choose_prod + .select2 input{
+	border: none !important;
+}
+
+/*=====  End of Select2 CSS  ======*/
